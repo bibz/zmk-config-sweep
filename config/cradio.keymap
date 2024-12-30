@@ -30,18 +30,10 @@
         compatible = "zmk,keymap";
         default_layer {
             bindings = <
-        //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│  Q       │  W       │  E       │  R       │  T       │   │  Y       │  U       │  I       │  O       │  P       │
-            &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P
-        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  A       │  S       │  D       │  F       │  G       │   │  H       │  J       │  K       │  L       │ ' "      │
-          &ht LSHFT A &ht LALT S &ht LCTRL D &ht LGUI F &kp G          &kp H    &ht RGUI J &ht RCTRL K &ht RALT L &ht RSHFT SQT
-        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ / ?      │
-            &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH
-        //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
+            &kp       B &kp       L  &kp        D &kp       W  &kp  Z     &kp SQT &kp       F &kp       O &kp       U     &kp       J
+            &ht LSHFT N &ht LALT  R  &ht LCTRL  T &ht LGUI  S  &kp  G     &kp Y   &ht RGUI  H &ht RCTRL A &ht RALT  E     &ht RSHFT I
+            &kp       Q &kp       X  &kp        M &kp       C  &kp  V     &kp K   &kp       P &kp       DOT &kp     COMMA &kp       FSLH
                                             &lt 2 TAB   &kp ENTER     &kp SPACE  &lt 1 BSPC
-        //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
 
